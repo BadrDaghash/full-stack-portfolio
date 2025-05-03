@@ -58,7 +58,7 @@ export default function Projects() {
           <div className="absolute bg-black inset-0 opacity-10 rounded-full z-50"></div>
           <img
             src={projectIntro}
-            className="h-[80%] w-70 md:w-[60%] lg:w-full mx-auto rounded-full shadow-lg  animate-pulse-soft shadow-[#3830a34b] relative z-40"
+            className="w-70 md:w-[60%] lg:w-full mx-auto rounded-full shadow-lg  animate-pulse-soft shadow-[#3830a34b] relative z-40"
             alt=""
           />
         </div>
