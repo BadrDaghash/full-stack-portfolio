@@ -1,0 +1,297 @@
+gray
+ EBECF1
+
+olive 
+
+206A5D
+
+1F4068  Navy
+
+1B1C25 black
+
+
+
+Ralegrotesk, sans-serif;
+
+Euclidcirculara, sans-serif;
+
+
+gray #F1F6F9 
+
+navy 1 #394867
+
+navy 2 #212A3E
+navy 3 #0f131b
+
+dark gray  #9BA4B5
+
+
+
+ {/* wave bg  */}
+        {/* 
+        <div class="custom-shape-divider-bottom-1734419209 ">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        ///////////////////////  ANIMATION ///////////////////// 
+
+        // import React, { useState, useEffect } from "react";
+// import { motion, useScroll } from "framer-motion";
+// import "./blog.css";
+
+// export default function Blog() {
+//   const { scrollY } = useScroll();
+//   const [scrollDirection, setScrollDirection] = useState("down");
+
+//   useEffect(() => {
+//     let lastScrollY = 0;
+
+//     const updateScrollDirection = () => {
+//       const currentScrollY = window.scrollY;
+//       if (currentScrollY > lastScrollY) {
+//         setScrollDirection("down");
+//       } else {
+//         setScrollDirection("up");
+//       }
+//       lastScrollY = currentScrollY;
+//     };
+
+//     window.addEventListener("scroll", updateScrollDirection);
+//     return () => window.removeEventListener("scroll", updateScrollDirection);
+//   }, []);
+
+//   return (
+//     <div className="w-full text-2xl text-blue-200 bg-gray-500 flex text-center items-center justify-center">
+//       <div className="scroll-container w-full relative py-20">
+//         {[...Array(3)].map((_, i) => (
+//           <motion.div
+//             key={i}
+//             className="card py-20"
+//             initial={{ opacity: 0, y: scrollDirection === "down" ? 100 : -100, scale: 0.6 }}
+//             whileInView={{ opacity: 1, y: 0, scale: 1 }}
+//             transition={{
+//               duration: 0.6,
+//               delay: i * 0.5,
+//               ease: "easeOut",
+//             }}
+//             viewport={{ once: false }}
+//           >
+//             Card {i + 1}
+//           </motion.div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }
+
+
+
+
+
+{/* <div
+        className="grid grid-cols-12 mx-auto w-[90%] my-12 p-6 gap-6
+       bg-[#ebecf1] bg-opacity-20 justify-center items-center text-center"
+        ref={progressBarRef} // Attach the ref here
+      >
+        <div
+          className="col-span-12 md:col-span-4 relative rounded-lg overflow-hidden
+         justify-center text-center mx-auto"
+        >
+          <div
+            className="absolute inset-0 z-10"
+            style={{
+              backgroundColor: "rgba(11, 25, 44, 0.18)",
+            }}
+          ></div>
+
+          <img src={woman} alt="home1" className="h-[400px] rounded-lg" />
+        </div>
+        <div
+          className="col-span-12 md:col-span-8  w-[80%]
+        mx-auto  text-[#1f4068] text-2xl font-semibold"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sunt
+          soluta ab!
+          <div className="flex justify-between mb-1 ">
+            <span className="text-base font-medium text-[#153255] dark:text-white">
+              Flowbite
+            </span>
+            <span className="text-sm font-medium text-[#153255] dark:text-white">
+              45%
+            </span>
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+            <div
+              className={`bg-[#153255] h-2.5 rounded-full transition-all duration-1000`}
+              style={{ width: isVisible ? "45%" : "0%" }} // Animate width
+            ></div>
+          </div>
+        </div>
+      </div> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      --------------------------------------------
+
+
+
+
+      <div
+        className="relative w-full h-screen bg-[#0c0a00] bg-cover bg-center  "
+        style={{
+          backgroundImage: `url(${front})`,
+        }}
+      >
+        {/* Overlay for dimming effect */}
+        <div
+          className="absolute inset-0 z-10"
+          // style={{
+          //   backgroundColor: "rgba(0, 0, 0, 0.85)",
+          // }}
+        ></div>
+
+        {/* Content */}
+        <div className="relative flex z-20  h-full justify-center items-center text-center">
+          <div className="text-[#EBECF1] md:text-6xl relative block  w-full mx-auto  ">
+            <h2 className="block mx-auto md:py-4">
+              The future of home{" "}
+              <span
+                className="inline-block text-start"
+                style={{ minWidth: "16rem", display: "inline-block" }}
+              >
+                <TypeAnimation
+                  sequence={[
+                    "living",
+                    2500,
+                    "renting",
+                    2500,
+                    "investing",
+                    2500,
+                  ]}
+                  wrapper="span"
+                  speed={50}
+                  repeat={Infinity}
+                  className="inline-block text-inherit"
+                />
+              </span>
+            </h2>
+            <div className="md:gap-6 flex text-center justify-center items-center">
+              <button class="button"> Hey, Hover Me</button>
+
+              <button class="button"> Hey, Hover Me</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="relative w-full h-screen bg-[#0c0a00] bg-cover bg-center "
+        style={{
+          backgroundImage: `url(${side})`,
+        }}
+      >
+        {/* Overlay for dimming effect */}
+        <div
+          className="absolute inset-0 z-10"
+          // style={{
+          //   backgroundColor: "rgba(0, 0, 0, 0.85)",
+          // }}
+        ></div>
+
+        {/* Content */}
+        <div className="relative flex z-20  h-full justify-center items-center text-center">
+          <div className="text-[#EBECF1] md:text-6xl relative block  w-full mx-auto  ">
+            <h2 className="block mx-auto md:py-4">
+              The future of home{" "}
+              <span
+                className="inline-block text-start"
+                style={{ minWidth: "16rem", display: "inline-block" }}
+              >
+                <TypeAnimation
+                  sequence={[
+                    "living",
+                    2500,
+                    "renting",
+                    2500,
+                    "investing",
+                    2500,
+                  ]}
+                  wrapper="span"
+                  speed={50}
+                  repeat={Infinity}
+                  className="inline-block text-inherit"
+                />
+              </span>
+            </h2>
+            <div className="md:gap-6 flex text-center justify-center items-center">
+              <button class="button"> Hey, Hover Me</button>
+
+              <button class="button"> Hey, Hover Me</button>
+            </div>
+          </div>
+        </div>
+      </div>

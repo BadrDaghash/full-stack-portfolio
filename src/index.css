@@ -1,0 +1,28 @@
+@import 'flowbite';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* home.css */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set the custom font variables */
+:root {
+  --font-heading: 'Audiowide', sans-serif;    /* Faculty Glyphic font for headings */
+  --font-body: 'Faculty Glyphic', sans-serif;          /* Audiowide font for body */
+}
+
+body {
+  font-family: var(--font-body); /* Apply Audiowide font to body text */
+  background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading); /* Apply Faculty Glyphic font to headings */
+}

@@ -1,0 +1,41 @@
+
+{projects.map((product, index) => (
+        <Card key={index} type="text">
+          {/* Card container with vertical layout */}
+          <div
+            className="flex flex-col  bg-green-400 rounded-md shadow-md shadow-zinc-900 relative w-full max-w-3xl 
+            h-auto min-h-[400px]"
+            style={{
+              backgroundImage: `url(${asbtrackWaves})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            {/* Background overlay */}
+            <div className="absolute inset-0 bg-green-400 bg-opacity-70 rounded-md"></div>
+
+            {/* Content container */}
+            <div className="flex flex-col  w-full h-full relative z-10  my-auto px-6 ">
+              {/* Image section - top */}
+              <div className="w-full h-40  bg-red-400 flex justify-center items-center relative">
+                <img
+                  src={product.src}
+                  className="object-cover w-full h-full rounded-lg"
+                  alt={product.title}
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-40 rounded-lg"></div>
+              </div>
+
+              {/* Text section - bottom */}
+              <div className="w-full flex flex-col bg-red-600 gap-2 p-4">
+                <h2 className="text-white text-3xl font-bold">
+                  {product.title}
+                </h2>
+                <h4 className="text-indigo-300 text-xl">{product.material}</h4>
+                <p className="text-gray-200 text-base">{product.description}</p>
+              </div>
+            </div>
+          </div>
+        </Card>
+      ))}
